@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./screenshot.jpg)
-![Mobile](./screenshot-mobile.jpg)
+![Desktop](https://user-images.githubusercontent.com/67725925/130420922-ae48878d-580d-4578-bdc0-223b172a290a.png)
+![Mobile](https://user-images.githubusercontent.com/67725925/130421043-6a1e173d-aec0-4a22-8d40-30079a259c32.png)
 
 ### Links
 
