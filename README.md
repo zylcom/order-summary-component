@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [order-summary-component](https://zylcom.github.io/order-summary-component/)
+- Live Site URL: [Order Summary Component](https://zylcom.github.io/order-summary-component/)
 
 ## My process
 
