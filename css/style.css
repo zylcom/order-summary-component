@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px red solid; */
+}
+
+body {
+  max-width: 1440px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  background-color: var(--pale-blue);
+}
+
+html::before {
+  content: "";
+  /* background-color: black; */
+  width: 100%;
+  height: 80%;
+  background: url("../images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -150px;
+  left: 0;
+  z-index: -1;
+}
+
+.card {
+  margin: 50px auto;
+  border-radius: 20px;
+  /* overflow: hidden; */
+  background-color: white;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+
+.content {
+  margin: 35px 0;
+  padding: 0 30px;
+}
+
+.content h2 {
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.description {
+  margin-top: 15px;
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--desaturated-blue);
+}
+
+.price {
+  margin: 15px 0;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--very-pale-blue);
+  border-radius: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contents {
+  display: none;
+  text-align: center;
+  position: absolute;
+  transform: translate(70px, -65px);
+  background-color: var(--very-pale-blue);
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.dropdown-contents p {
+  color: var(--desaturated-blue);
+  padding: 8px 10px;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-contents p:hover {
+  background-color: var(--pale-blue);
+  color: var(--bright-blue);
+}
+
+.dropdown-contents p:active {
+  background-color: var(--bright-blue);
+  color: white;
+}
+
+.show {
+  display: block;
+}
+
+.change {
+  color: var(--bright-blue);
+  text-decoration: underline;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+}
+
+.change:active {
+  text-decoration: none;
+  color: var(--bright-blue);
+  opacity: 0.6;
+}
+
+.year {
+  display: flex;
+  color: var(--desaturated-blue);
+  font-weight: normal;
+  align-items: center;
+}
+
+.plan {
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.icon {
+  font-size: 20px;
+  color: var(--desaturated-blue);
+  margin-right: 10px;
+  background-color: var(--pale-blue);
+  line-height: 35px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+
+.payment {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.proceed,
+.cancel {
+  height: 40px;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+}
+
+.proceed {
+  color: white;
+  background: var(--bright-blue);
+  box-shadow: 2px 15px 20px var(--pale-blue);
+  cursor: pointer;
+}
+
+.proceed:active {
+  background-color: var(--bright-blue);
+  opacity: 0.8;
+}
+
+.cancel {
+  color: var(--desaturated-blue);
+  background-color: transparent;
+}
+
+.cancel:hover {
+  cursor: pointer;
+  background-color: var(--bright-blue);
+  color: white;
+  box-shadow: 2px 15px 20px var(--pale-blue);
+}
+
+.cancel:active {
+  color: black;
+  font-weight: 900;
+  background-color: transparent;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 700px) {
+  html::before {
+    content: "";
+    /* background-color: black; */
+    width: 100%;
+    height: 80%;
+    background: url("../images/pattern-background-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -150px;
+    left: 0;
+    z-index: -1;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .card {
+  width: 28%;
+  }
+}
