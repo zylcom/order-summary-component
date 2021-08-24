@@ -29,6 +29,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/order-summary-component-use-flexbox-css-7JIsmWNP4)
 - Live Site URL: [Frontend Mentor | Order summary card](https://zylcom.github.io/order-summary-component/)
 
 ## My process
