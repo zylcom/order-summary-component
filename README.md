@@ -14,7 +14,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -25,7 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](https://user-images.githubusercontent.com/67725925/130420922-ae48878d-580d-4578-bdc0-223b172a290a.png)
+- Desktop
+
+  ![desktop](https://user-images.githubusercontent.com/67725925/138818073-289780cd-b4ff-4cb2-9ee6-1ae999937fbf.png)
+
+- Mobile
+
+  ![mobile](https://user-images.githubusercontent.com/67725925/138818286-65891cb3-7acc-4d15-8d86-5cd61b8d59f3.png)
 
 ### Links
 
@@ -68,4 +73,3 @@ window.addEventListener("click", (e) => {
 - Instagram - [@sabil_272](https://instagram.com/sabil_272)
 - Facebook - [Sabil](https://www.facebook.com/sabil.sabil.7731247)
 - Github - [zylcom](https://github.com/zylcom)
-
