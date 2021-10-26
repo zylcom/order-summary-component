@@ -71,5 +71,5 @@ window.addEventListener("click", (e) => {
 - Website - [My Portfolio](https://zylcom.github.io/)
 - Frontend Mentor - [@zylcom](https://www.frontendmentor.io/profile/zylcom)
 - Instagram - [@sabil_272](https://instagram.com/sabil_272)
-- Facebook - [Sabil](https://www.facebook.com/sabil.sabil.7731247)
+- Facebook - [Sabil](https://www.facebook.com/sabilillah272)
 - Github - [zylcom](https://github.com/zylcom)
